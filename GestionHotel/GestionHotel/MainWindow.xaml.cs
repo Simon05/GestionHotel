@@ -27,7 +27,7 @@ namespace GestionHotel
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
     }
 }
