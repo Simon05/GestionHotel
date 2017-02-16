@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionHotel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="728" Width="1024" WindowStartupLocation="CenterScreen" MinWidth="1024" MinHeight="728" FontFamily="Roboto" FontSize="16">
+        Title="MainWindow" Height="728" Width="1024" WindowStartupLocation="CenterScreen" MinWidth="1024" MinHeight="728" FontFamily="Roboto" FontSize="20">
     <Grid>
-        <Button x:Name="button" Content="Run your First setup Now!" HorizontalAlignment="Left" Margin="156,210,0,0" VerticalAlignment="Top" Width="222" Click="button_Click"/>
+        <Button x:Name="button" Content="Run your First setup Now!" HorizontalAlignment="Left" Margin="330,264,0,0" VerticalAlignment="Top" Width="324" Click="button_Click" Height="104" BorderBrush="White" Foreground="White" Background="#FF46D5FF"/>
 
     </Grid>
 </Window>
