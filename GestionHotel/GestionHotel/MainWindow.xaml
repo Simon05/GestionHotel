@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionHotel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="728" Width="1024" WindowStartupLocation="CenterScreen" WindowState="Maximized" MinWidth="1024" MinHeight="728" FontFamily="Roboto" FontSize="16">
+        Title="MainWindow" Height="728" Width="1024" WindowStartupLocation="CenterScreen" MinWidth="1024" MinHeight="728" FontFamily="Roboto" FontSize="20">
     <Grid>
-        <Button x:Name="button" Content="Run your First setup Now!" HorizontalAlignment="Left" Margin="401,285,0,0" VerticalAlignment="Top" Width="223"/>
+        <Button x:Name="button" Content="Run your First setup Now!" Margin="293,496,313,137" Width="410" Background="#FF3BDBFF" Height="64" Foreground="White" BorderBrush="White"/>
+        <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="293,419,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" Height="64" Margin="293,332,0,0" TextWrapping="Wrap" Text="Le Nom De L'Hotel" Width="410" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
