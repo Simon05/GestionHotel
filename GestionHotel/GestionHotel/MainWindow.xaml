@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="728" Width="1024" WindowStartupLocation="CenterScreen" MinWidth="1024" MinHeight="728" FontFamily="Roboto" FontSize="16">
     <Grid>
-        <Button x:Name="button" Content="Run your First setup Now!" HorizontalAlignment="Left" Margin="684,115,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button x:Name="button" Content="Run your First setup Now!" HorizontalAlignment="Left" Margin="156,210,0,0" VerticalAlignment="Top" Width="222" Click="button_Click"/>
 
     </Grid>
 </Window>
